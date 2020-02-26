@@ -1,4 +1,4 @@
-#Chapman University Python (CPSC230)
+# Chapman University Python (CPSC230)
 This repository is for CPSC230 Python at Chapman University and will be used to store all programming assignments and classwork
 
 - For Textbook, refer to [The Practice of Computing Using Python](CourseInfo/Python.pdf)
@@ -58,7 +58,7 @@ git push						[Push Local Changes to Repo]
 
 2. [Conditionals](Assignments/Assignment2/)
 	- Collaborative Project
-	- Partner: Daniel Kavesh
+  - Daniel Kavesh
 	- [Assignment 2 Instructions](Assignments/Assignment2/Assignment_Conditionals.pdf)
 
 3. [Loops](Assignments/Assignment3/)
