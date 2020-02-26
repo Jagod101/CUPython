@@ -5,7 +5,10 @@ CPSC230
 Assignment 2
 
 Source Files: TotalPrice.py, Quadratic.py, README.txt
+Errors: N/A
+References: N/A
 
+Program Descriptions:
 Part 1 - TotalPrice.py
 The program should find the total price of an item given the price and sales tax.
 The program should prompt the user for the purchase price of an item and the sales tax rate, it should display the total price of the item.
