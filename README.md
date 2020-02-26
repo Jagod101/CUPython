@@ -57,13 +57,11 @@ git push						[Push Local Changes to Repo]
 	- [Assignment 1 Instructions](Assignments/Assignment1/Assignment1_Basics.docx)
 
 2. [Conditionals](Assignments/Assignment2/)
-	- Collaborative Project
-  - Daniel Kavesh
+	- Collaborative Project (Parnter: Daniel Kavesh)
 	- [Assignment 2 Instructions](Assignments/Assignment2/Assignment_Conditionals.pdf)
 
 3. [Loops](Assignments/Assignment3/)
-	- Collaborative Project
-  - Partner: Daniel Kavesh
+	- Collaborative Project (Partner: Daniel Kavesh)
 	- [Assignment 3 Instructions](Assignments/Assignment3/Assignment_Loops.pdf)
 
 4. [Pig](Assignments/Assignment4/)
