@@ -1,15 +1,16 @@
 # Assignment 4 - Pig
-
+```
 Zach Jagoda
 Student ID: 2274813
 Student Email: jagod101@mail.chapman.edu
 CPSC230
 Assignment 4 - Pig
-
+```
+```
 Source Files: Pig.py, README.txt
 Runtime Errors: N/A
 References: N/A
-
+```
 Program Description:
 ```
 The game of Pig is a simple two-player dice game in which the first player to reach 100 or more points wins.  Players take turns.  On each turn a player rolls a six-sided die.  After each roll:
