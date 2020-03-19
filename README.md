@@ -50,6 +50,7 @@ git push						[Push Local Changes to Repo]
 ## In-Class Work/Examples
 - [Math](In-Class/circumference.py/)
 - [User Input](In-Class/prompt.py/)
+- [Functions](In-Class/geometry.py/)
 
 ## Assignments List
 - [Assignment 1 - Basics](Assignments/Assignment1/)
