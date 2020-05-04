@@ -50,23 +50,32 @@ git push						[Push Local Changes to Repo]
 ## In-Class Work/Examples
 - [Math](In-Class/circumference.py/)
 - [User Input](In-Class/prompt.py/)
+- [Functions](In-Class/geometry.py/)
 
 ## Assignments List
-1. [Basics](Assignments/Assignment1/)
+- [Assignment 1 - Basics](Assignments/Assignment1/)
 	- Individual Project
 	- [Assignment 1 Instructions](Assignments/Assignment1/Assignment1_Basics.docx)
 
-2. [Conditionals](Assignments/Assignment2/)
-	- Collaborative Project (Parnter: Daniel Kavesh)
+- [Assignment 2 - Conditionals](Assignments/Assignment2/)
+	- Collaborative Project
+		- Partner: Daniel Kavesh
 	- [Assignment 2 Instructions](Assignments/Assignment2/Assignment_Conditionals.pdf)
 
-3. [Loops](Assignments/Assignment3/)
-	- Collaborative Project (Partner: Daniel Kavesh)
+- [Assignment 3 - Loops](Assignments/Assignment3/)
+	- Collaborative Project
+		- Partner: Daniel Kavesh
 	- [Assignment 3 Instructions](Assignments/Assignment3/Assignment_Loops.pdf)
 
-4. [Pig](Assignments/Assignment4/)
+- [Assignment 4 - Pig](Assignments/Assignment4/)
 	- Individual Project
 	- [Assignment 4 Instructions](Assignments/Assignment4/Assignment_Pig.docx)
+
+5. [Assignment 5 - Alternades](Assignments/Assignment5/)
+	- Collaborative Project
+		- Partner: Daniel Kavesh
+	- [Assignment 5 Instructions](Assignments/Assignment5/Assignment5.pdf)
+
 
 
 ## License
