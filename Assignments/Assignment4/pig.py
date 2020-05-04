@@ -17,7 +17,8 @@
 import random
 
 #Declare Variables
-playerSum = 0       #Keep Track of Player Sum
+playerSum = 0       #Keep Track of Player Sum for a given round
+playerTotalSum = 0  #Keep Track of Total Player Sum
 computerSum = 0     #Keep Track of Computer Sum for a given round
 compTotalSum = 0    #Keep Track of Total Computer Sum
 
@@ -28,18 +29,26 @@ playerChoice = ""   #Keep Track of Player Input
 
 #If the Player Wins, call playerWin()
 def playerWin():
-    print("*********************\nDr. Phil: Congratulations on winning, I knew you could do it")
+    print("*********************\n")
+    print("Dr. Phil: Congratulations on winning, I knew you could do it")
 #If the Computer Wins, call computerWin()
 def computerWin():
-    print("*********************\nDr. Phil: Congratulations on win- wait... the computer won??\nI knew you couldn't win... :(")
+    print("*********************\n")
+    print("Dr. Phil: Congratulations on win- wait... the computer won??\nI knew you couldn't win... :(")
 
 #Opening Message
-print("**** WELCOME TO THE GAME OF PIG *****\n\nDr. Phil: I'm your host, Dr. Phil!\nDr. Phil: You ready for a good game? Well let's roll!")
+print("**** WELCOME TO THE GAME OF PIG *****\n\n")
+print("Dr. Phil: I'm your host, Dr. Phil!\n")
+print("Dr. Phil: The Rules are simple, Roll the dice to increase your score, but don't roll a 1. You can Hold to save whatever you've rolled in your turn\n")
+print("Dr. Phil: You ready for a good game? Well let's roll!")
+
 #Set loop to go between Player and Computer until Game is Won
 while True:
     if playerTurn == True:
         #Prompt Player for Input
-        playerChoice = input("*********************\nWill you Roll (r) or Hold (h)? ")
+        print("*********************\n")
+        playerChoice = input("Will you Roll [r] or Hold [h]? ")
+
         #If Input is Roll
         if playerChoice == "r":
             #Roll the Dice Using Random
@@ -49,26 +58,24 @@ while True:
             #If Dice == 1, End Player Turn
             if dice == 1:
                 print("Dr. Phil: Darn, you Rolled a 1. Send him to THE RANCH")
+                playerSum = 0
                 playerTurn = False
             #If Dice is between 2 & 6, Add Dice Roll to Player Sum
             else:
                 playerSum = playerSum + dice
-                print("Your Score is now ", playerSum)
-
-                #If Player Sum is Greater Than or Equal to 100, Call playerWin() and Break the While Loop to End the Game
-                if playerSum >= 100:
-                    playerWin()
-                    break
+                print("Your Score is now ", playerTotalSum + playerSum)
                 continue
         #If Input is Hold
         elif playerChoice == "h":
             playerTurn = False
-            #If Player Sum is Greater Than or Equal to 100, Call playerWin() and Break the While Loop to End the Game
-            if playerSum >= 100:
+            playerTotalSum = playerTotalSum + playerSum
+            #If Total Player Sum is Greater Than or Equal to 100, Call playerWin() and Break the While Loop to End the Game
+            if playerTotalSum >= 100:
                 playerWin()
             #Else, Print Total Score for Player
             else:
-                print("Dr. Phil: Holding with a ", playerSum, " smart move kid")
+                print("Dr. Phil: Holding with a ", playerTotalSum, " smart move kid")
+                playerSum = 0
         #If Input is not Roll or Hold
         else:
             print("Dr. Phil: Come on... Please Enter a Valid Option")
@@ -82,7 +89,8 @@ while True:
             if dice == 1:
                 playerTurn = True
                 computerSum = 0
-                print("*********************\nDr. Phil: Looks like the Computer rolled a 1")
+                print("*********************\n")
+                print("Dr. Phil: Looks like the Computer rolled a 1")
             #Else, if Dice is between 2 & 6 add Dice to Computer Sum
             else:
                 computerSum = computerSum + dice
@@ -99,6 +107,7 @@ while True:
                 break
 
             #Print Total Score for Computer
-            print("*********************\nDr. Phil: The Computer has ", compTotalSum)
+            print("*********************\n")
+            print("Dr. Phil: The Computer has ", compTotalSum)
             #Set playerTurn to True for the Player to go
             playerTurn = True
