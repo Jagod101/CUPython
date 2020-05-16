@@ -76,6 +76,17 @@ git push						[Push Local Changes to Repo]
 		- Partner: Daniel Kavesh
 	- [Assignment 5 Instructions](Assignments/Assignment5/Assignment5.pdf)
 
+6. [Assignment 6 - Functions](Assignments/Assignment6/)
+	- Individual Project
+	- [Assignment 6 Instructions](Assignments/Assignment6/Assignment_Functions.pdf)
+
+7. [Assignment 7 - Lists and Tuples](Assignments/Assignment7/)
+	- Individual Project
+	- [Assignment 7 Instructions](Assignments/Assignment7/Assignment7.pdf)
+
+8. [Assignment 8 - File and Exception Handling](Assignments/Assignment8/)
+	- Individual Project
+	- [Assignment 8 Instructions](Assignments/Assignment8/Assignment8_FilesExceptions.pdf)
 
 
 ## License
