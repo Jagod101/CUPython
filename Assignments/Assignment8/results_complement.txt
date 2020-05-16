@@ -1,0 +1,4 @@
+DNA Sequence: ACTG
+
+Complement Sequence: TGAC
+Reversed Complement Sequence: CAGT
